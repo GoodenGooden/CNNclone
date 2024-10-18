@@ -1,0 +1,53 @@
+.section5__cont {
+    display: flex;
+    padding: 3rem;
+
+}
+
+.section5__left {
+    flex: 0 0 60%;
+    padding: 1.5rem;
+    
+}
+
+.section5-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem;
+
+}
+
+.section5__right {
+    flex: 1;
+    padding: 1.5rem;
+
+}
+
+.section5-img {
+    width: 100%;
+}
+
+.section5-img1 {
+    width: 100%;
+}
+
+.section5__header {
+    font-size: 3rem;
+    padding: 0 6rem;
+
+    &:hover {
+        text-decoration: underline;
+
+    }
+    
+    
+}
+
+.section5-para {
+    &:hover {
+        text-decoration: underline;
+
+    }
+
+}

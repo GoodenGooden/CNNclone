@@ -1,0 +1,64 @@
+.advert-container {
+    display: flex;
+    
+}
+
+.advert {
+     font-size: 1.1rem;
+     color: $color-black-dark;
+}
+
+.advert1 {
+    font-size: 1.1rem;
+    color: $color-black-dark;
+    margin-right: auto;
+}
+
+.advert__cont {
+    height: 40%;
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(/img/football.jpg);
+    background-size: 100% 100%;
+}
+
+.advert-section {
+    height: 30rem;
+}
+
+.advert__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: $color-grey-dark;
+}
+
+.advert1__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: $color-grey-dark;
+}
+
+
+.advert1-container {
+    display: flex;
+    height: 10%;
+    width: 70%;
+    justify-content: center;
+
+}
+
+.advert2 {
+    font-size: 1.1rem;
+    color: $color-black-dark;
+   // margin-right: auto;
+}
+
+.advert1__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: $color-grey-dark;
+}
+
+.advert1__icon {
+    margin-left: 20rem;
+}
