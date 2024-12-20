@@ -63,6 +63,51 @@ body {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 900px) {
+  .header-text {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer__flex-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__navigation-left {
+    padding-left: 2rem;
+  }
+  .header__navigation-right {
+    padding-right: 2rem;
+  }
+  .flex-right {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .footer__flex-cont {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header__navigation-left {
+    padding-left: 2rem;
+  }
+  .header__navigation-right {
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 2652px) {
+  .footer__flex-cont {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .advert-container {
   display: flex;
 }
@@ -126,7 +171,7 @@ body {
 
 .footer {
   background-color: #0c0c0c;
-  height: 170rem;
+  overflow: hidden;
 }
 
 .footer__cont {
@@ -320,15 +365,15 @@ body {
 .header {
   background-color: #111;
   padding-top: 10rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .header__flex-cont {
   display: flex;
   padding: 0 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
+  justify-content: space-between;
 }
 
 .flex-left {
@@ -337,24 +382,21 @@ body {
 
 .header__navigation-left {
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 .flex-right {
-  flex: 0 0 30%;
-  margin-left: 13rem;
+  flex: 0 0 20%;
 }
 
 .header__navigation-right {
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 .header-text {
   color: #f7f7f7;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.5rem;
 }
 
 .header-text-1 {
@@ -470,15 +512,8 @@ body {
   font-weight: 700;
   color: #111;
   line-height: 1.1;
-}
-
-.span {
-  display: inline-block;
-}
-
-.span1 {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .picture1 {

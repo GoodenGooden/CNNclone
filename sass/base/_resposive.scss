@@ -1,0 +1,185 @@
+@include media-xxs {
+ 
+  body {
+    width: auto!important;
+   // height: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden!important;
+  }
+
+  .cont
+  .footer__paragraph {
+    visibility: hidden;
+    //max-height: 0;
+  }
+  
+  .advert2 {
+    visibility: hidden;
+  }
+
+
+
+  .section__container {
+    max-height: 0;
+  }
+
+  .section5-grid {
+ display: grid !important;
+grid-template-columns: 1fr !important;
+  }
+
+  .footer__flex-right {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+}
+
+
+
+@include media-xs {
+  .section__container {
+    visibility: hidden;
+    max-height: 0;
+  }
+
+  
+  .footer__flex-container {
+    display: flex;
+    flex-direction:column;
+    
+  }
+
+  .footer__paragraph {
+    visibility: hidden;
+  }
+
+  .footer__list {
+    visibility: hidden;
+    max-height: 0;
+
+  }
+
+  .flex-cont {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .footer__flex-right {
+    visibility: hidden;
+  }
+
+  .footer-text {
+    visibility: hidden;
+  }
+
+  .section1__container {
+    margin-top: -4rem;
+  }
+
+}
+
+@include media-sm {
+  .header-text {
+    visibility: hidden;
+  }
+
+  .footer__paragraph {
+    visibility: hidden;
+  }
+
+  .section1__container {
+    display: flex;
+  }
+
+  .footer-text {
+    visibility: hidden;
+
+  }
+
+  .section1__para11 {
+    visibility: hidden;
+  }
+
+ 
+
+
+ .section1__para11 {
+     visibility: hidden;
+   }
+
+.section1__right {
+  visibility: hidden;
+  max-height: 0;
+}
+
+  
+  .section1__cont {
+    display: flex;
+    flex-direction: column;
+   // gap: 20rem;
+    padding: 2rem;
+  }
+
+  .section2__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section3__cont1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section4__container {
+   display: flex;
+   flex-direction: column;
+  }
+  .section5__cont {
+    flex-direction: column;
+  }
+
+  
+
+}
+
+@include media-med {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  .header__navigation-left {
+    padding-left: 2rem;
+  }
+
+  .header__navigation-right {
+    padding-right: 2rem;
+  }
+
+  .flex-right {
+    visibility: hidden;
+  }
+
+  
+}
+
+@include media-lag {
+  .header__navigation-left {
+    padding-left: 2rem;
+  }
+
+  .header__navigation-right {
+    padding-right: 2rem;
+  }
+}
+
+@include media-xl {
+ 
+}

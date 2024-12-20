@@ -11,29 +11,30 @@
 .header__flex-cont {
     display: flex;
     padding: 0 1rem;
-    
+    justify-content: space-between;
+
 }
 
 .flex-left {
     flex: 0 0 60%;
-    
-    
 }
 
 .header__navigation-left {
     display: flex;
-    justify-content: space-between;
-  
+    //justify-content: space-between;
+  gap: 2rem;
 }
 
 .flex-right {
-flex: 0 0 30%;
-margin-left: 13rem;
+flex: 0 0 16%;
+//margin-left: 11rem;
+
 }
 
 .header__navigation-right {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
+    gap: 2rem;
     
 }
 
@@ -41,8 +42,8 @@ margin-left: 13rem;
 .header-text {
     color: $color-grey-light-1;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.5rem;
+    // font-weight: 500;
+    //font-size: 1.5rem;
 }
 
 .header-text-1 {

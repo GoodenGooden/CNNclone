@@ -7,10 +7,7 @@ body {
    
 }
 
-.section1__h3 {
 
-    
-}
 
 .section1__content {
     line-height: 2.5;
@@ -52,6 +49,20 @@ body {
     text-decoration: underline;
 
 }
+}
+
+.section1__para11 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-top: 3px solid $color-grey-light-2;
+   // border-bottom: 3px solid $color-grey-light-1;
+
+   &:hover {
+    text-decoration: underline;
+
+}
+
+
 }
 
 .section-para {

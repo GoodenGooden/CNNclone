@@ -14,8 +14,1320 @@ body {
 }
 
 .container {
-    height: 100vh;
+   height: 100vh;
+   
 }
+
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header">
+                <div class="header__flex-cont">
+
+                    <div class="flex-left">
+                        <nav class="header__navigation-left">
+                            <svg class="header__icon-1">
+                                <use xlink:href="/sprite.svg#icon-menu">
+                                </use>
+                            </svg>
+
+                            <img class="header__cnn-icon" src="/img/download (1).png" alt="img">
+
+                            <p><a class="header-text" href="">US</a></p>
+                            <p><a class="header-text" href="">World</a></p>
+                            <p><a class="header-text" href="">Politics</a></p>
+                            <p><a class="header-text" href="">Business</a></p>
+                            <p><a class="header-text" href="">Opinion</a></p>
+                            <p><a class="header-text" href="">Health</a></p>
+                            <p><a class="header-text" href="">Entertainment</a></p>
+                            <p><a class="header-text" href="">Style</a></p>
+                            <p><a class="header-text" href="">Travel</a></p>
+                            <p><a class="header-text" href="">Sport</a></p>
+                        </nav>
+                    </div>
+
+
+                    <div class="flex-right">
+                        <nav class="header__navigation-right">
+                            <p><a class="header-text-1" href="">Watch</a></p>
+                            <p><a class="header-text-1" href="">Listen</a></p>
+                            <p><a class="header-text-1" href="">Listen</a></p>
+                            <p><a class="header-text-1" href="">Live TV</a></p>
+
+                            <svg class="header__icon">
+                                <use xlink:href="/sprite.svg#icon-magnifying-glass">
+                                </use>
+                            </svg>
+                            <button class="header-button"><a class="header-link">Log In</a></button>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+
+        <section>
+            <div class="section__container">
+                <p class="section-para"><a>Biden and Trump</a></p>
+                <p>&#124</p>
+                <p><a class="section-para">Boeing trouble</a>
+                <p>&#124</p>
+                <p><a class="section-para">Andrew Tate detained</a>
+                <p>&#124</p>
+                <p><a class="section-para">Princess of Wales</a>
+                <p>&#124</p>
+                <p><a class="section-para">Mars 'giant whirlpools'</a>
+                <p>&#124</p>
+                <p><a class="section-para">Titanic II</a>
+                <p>&#124</p>
+                <p><a class="section-para">'Extinction-level' threat to humans</a>
+            </div>
+        </section>
+
+        <section class="section1__container">
+            <div class="section1__cont">
+                <div class="section1__left">
+                    <div class="section1__div">
+                        <h1 class="section1__head">
+                            <span class="span">
+                                <p>Russians abroad have no</p>
+
+                                <p class="span1">Faith in this election</p>
+                        </h1>
+                    </div>
+                    <div>
+                        <img class="picture1" src="/img/russian img.jpeg" alt="img">
+                        <p class="section1__caption">Joerg Caretensen/picture-alliance/dpa/AP</p>
+                    </div>
+                    <div class="section1__div">
+                        <h3 class="section1__h3">
+                            Overseas Russian have mixed feelings about the upcoming
+                            presidential election - and are divided on what they
+                            can do about it
+                        </h3>
+                    </div>
+                    <div>
+                        <ul class="section1__content">
+                            <li class="section5-para">
+                                <b>Analysis:</b> As he sails to re-election,
+                                Puttin has a succession problem
+                            </li>
+                            <li class="section5-para">
+                                China, Russian and Iran put on show of force with Mideast naval drills
+                            </li>
+                            <li class="section5-para">
+                                Putin says he's ready to use nuclear weapons if Russians state at stake
+                            </li>
+                            <li class="section5-para">
+                                Putin reacts to reports of cross-border raids into Russia
+                            </li>
+                            <li class="section5-para">
+                                Hear Putin discuss Nuclear weapon during interview
+                                <img class="section1__icon" src="/img/th.jpg" alt="img"> 1:01
+                            </li>
+                            <li class="section5-para">
+                                Russia blamed after Navalny's former chief of staff attacked
+                                with hammer in Lithuania
+                                <img class="section1__icon" src="/img/th.jpg" alt="img"> 2:07
+                            </li>
+                        </ul>
+                    </div>
+                    
+                
+            </div>
+            <div class="section1__middle">
+                <div class="section1__middle-video">
+                    <video class="section1__middle-video" autoplay muted loop>
+                        <source src="img/dragonfire-1-1.mp4" type="video/mp4">
+                        <source src="img/video.webm" type="video/webm">
+                        your browser is not supported!
+                    </video>
+                </div>
+                <div>
+                    <h3 class="section1-cont">
+                        How lasers could revolutionized the way millitaries counter
+                        enemy missiles and drone
+                    </h3>
+                </div>
+
+                <div>
+                    <img class="picture2" src="/img/don img.jpg" alt="img">
+                    <p class="picture-content"><button class="section1__picture-content">Analysis</button></p>
+                </div>
+                <div>
+                    <h3 class="section1-cont">
+                        Trump's delaying strategy is working so far
+                    </h3>
+                </div>
+                <div>
+                    <img class="picture2" src="/img/tik img.jpg" alt="img">
+                    <p class="picture-content"><button class="section1__picture-content">Analysis</button></p>
+
+                </div>
+
+            </div>
+
+            <div class="section1__right">
+                <div>
+                    <img class="section1__middle-video" src="img/cnn-fast-master-1920x1080-a.png" alt="img">
+                </div>
+
+                <div>
+
+                    <div class="section1-cont">
+                        <h3>
+                            Catch up on the global latest news
+                        </h3>
+                    </div>
+                    <p class="section1__para1">These Trump allies voted 'no' on the TikTok ban
+                        was it because of him?
+                    </p>
+
+                    <p class="section1__para1">
+                        <b class="strong">Live Updates:</b>
+                        Hezbollah vows to continue fighting Isreal
+                    </p>
+                    <p class="section1__para1">
+                        What the US house TikTok vote means
+                    </p>
+                    <p class="section1__para1">
+                        Judge to consider arguments that Trump could keep any
+                        document he wanted
+                    </p>
+                    <p class="section1__para1">
+                        <b>Analysis:</b>
+                        In deciding on anti-gay law, Ghana's president is caught
+                        between a rock and a hard place
+                    </p>
+                    <p class="section1__para1">
+                        Don Lemon releases interview with Musk to CNN after X canceled
+                        his deal
+                    </p>
+
+                    <p class="section1__para1">
+                        This $600k defense against sea level rise could have lasted
+                        3 years. It was destroyed in less than a day
+                    </p>
+
+                    <p class="section1__para1">
+                        SpaceX gets green light for third starship test flight
+                    </p>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="section2">
+        <div class="section2__container">
+            <div class="section2__left">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section2__para">more top stories</p>
+                </div>
+                <div>
+                    <img class="section2__image1" src="img/voyage img.jpg" alt="img">
+                    <h3 class="section2__content">
+                        Aging Voyager 1 sends back suprising response after 'poke' on earth
+                    </h3>
+                </div>
+                <div>
+                    <p class=" section2__content1">
+                        'i'm so lucky': Former UFC fighter Mark Coleman is
+                        'breathing on his own' after saving parents from house fire
+                    </p>
+                    <p class="section2__content1">
+                        Why Toobin finds it 'outragerous' the Manhattan DA is willing
+                        to delay Trump hush money trial (icon) 1:07
+                    </p>
+                    <p class="section2__content1">
+                        Mo Salah sets Liverpool goalscoring record
+                    </p>
+                    <p class="section2__content1">
+                        Wall Street Journal: Latam Air flight plunge might have been
+                        caused by a mistake in the cockpit
+                    </p>
+                </div>
+            </div>
+
+            <div class="section2__middle">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section2__para">featured</p>
+                </div>
+                <div>
+                    <img class="section2-image1" src="/img/img couple.jpg" alt="img">
+                    <p class="section1__caption">@Dodgera/Twitter(X)</p>
+                </div>
+                <div>
+                    <h3 class="caption">
+                        His suprise marriage to an unkown woman sets tongue wagging.
+                        Now the Dodgers hitter reveal his wife is also a top athlete
+
+                    </h3>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-img" src="/img/christian-aaron-147.jpg" alt="img">
+                    <p>A kind stranger helped her at the airport. Then
+                        something unexpeted happened
+                    </p>
+
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-image" src="/img/rock img.jpg" alt="img">
+                    <p>Destination doubles entry fees amid tourism damage
+                        concerns
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="section2__right">
+                <div>
+                    <img class="section2__image1" src="/img/ad img1.jpg" alt="img">
+                    <div class="advert-container">
+                        <p class="advert1">Adertisement</p>
+
+                        <svg class="advert__icon">
+                            <use xlink:href="/sprite.svg#icon-message">
+                            </use>
+                        </svg>
+                        <p class="advert">
+                            AD Feedback
+                        </p>
+                    </div>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/house of rep.jpg" alt="img">
+                    <p>House GOP Biden inquiry stalls as
+                        impeachment becomes less likely
+                    </p>
+                </div class="section2__cont">
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/brain img.png" alt="img">
+                    <p>Deep brain stimulation didnt work for a young OCD
+                        patient until new brain maps changed everything
+                    </p>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/water img.jpg" alt="img">
+                    <p>Stunning photos show suprising wildlife
+                        in the British Isles
+                    </p>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-imag" src="/img/nickledon img.jpg" alt="img">
+                    <p>Ex-Nickeleodon child star describes alleged abuse
+                        from former dialect coach (icon) 2:49
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advert-section">
+        <div class="advert__cont">
+        </div>
+        <div class="advert1-container">
+            <p class="advert2">Adertisement</p>
+            <svg class="advert1__icon">
+                <use xlink:href="/sprite.svg#icon-message">
+                </use>
+            </svg>
+            <p class="advert2">
+                AD Feedback
+            </p>
+        </div>
+    </section>
+
+
+    <section class="section2">
+        <div class="section2__container">
+            <div class="section2__left">
+                <div>
+                    <img class="section2__image1" src="/img/youtuber img.jpg" alt="img">
+                    <h3 class="section2__content">
+                        A 26-year-old Youtuber is conquering French journalism
+                    </h3>
+                </div>
+                <div>
+                    <div class="section3__cont1">
+                        <img class="section3__img1" src="/img/rider img.jpg" alt="img">
+                        <p class="section3__para1">Lance Armstrong says that he experienced PTSD and had
+                            intensive therapy - 'all alone, one-on-one, 10 hours a day'
+                        </p>
+                    </div>
+                    <div class="section3__cont1">
+                        <img class="section3__img1" src="/img/burning img.jpg" alt="img">
+                        <p class="section3__para1">The burning acid behind ant stings was spotted
+                            around two stars
+                        </p>
+                    </div>
+                    <div class="section3__cont1">
+                        <img class="section3__img1" src="/img/vid img.jpg" alt="img">
+                        <p class="section3__para1"> How police found suspect in pennsylvania shootings
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section2__middle">
+                <div>
+                    <img class="section2-image1"
+                        src="/img/chapungu-the-day-rhodes-fell-university-of-cape-town-2015-1.jpg" alt="img">
+                    <p class="section1__caption">Sethembile Msezane</p>
+                </div>
+                <div>
+                    <h3 class="caption">
+                        Through this photo, a young woman in Cape Town sends a powerful
+                        message about colonial racism and hope
+
+                    </h3>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-img" src="/img/stout img.jpg" alt="img">
+                    <p> 'Black is beautiful': Why Nigerians thinks thier Guinness
+                        is better than Ireland's
+                    </p>
+
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-image" src="/img/car img.jpg" alt="img">
+                    <p>Remembering Marcello Gandini, designer of the world's most
+                        famous supercar
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="section2__right">
+                <div>
+                    <img class="section2__image1" src="/img/us img.jpg">
+                    <h3 class="caption">
+                        Here's why there's a US border on irish soil
+                    </h3>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/marriage img.jpg" alt="img">
+                    <p>Marriage rates are up, and divorce rates are down, new
+                        data shows
+                    </p>
+                </div class="section2__cont">
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/golfer img.jpg" alt="img">
+                    <p>This golfer hurled his club into the water in disgust.
+                        Then his wife's dry sense of humour got to work
+                    </p>
+                </div>
+                <div class="section2__cont">
+                    <img class="section2-imag" src="img/bus img.jpg" alt="img">
+                    <p>CNN obtained a list of donor's supporting migrant
+                        busing. The numbers don't add up
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="featured">
+            <h2 class="section4__header">
+                Featured
+            </h2>
+        </div>
+        <div class="section4__container">
+            <div class="section4__left">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">cnn business</p>
+                </div>
+                <div>
+                    <div>
+                        <img class="section4__img" src="img/road img.jpg" alt="img">
+                        <h3>
+                            The 6% commision on buying or selling a home is gone
+                            after Realtors association agrees to seismic settlement
+                        </h3>
+                    </div>
+                    <div class="section4__para">
+                        <p class="section4__para1">
+                            Tesco and Sainsbury's working to fix technical
+                            issues that suspended food deliveries to customers
+                        </p>
+                        <p class="section4__para1">
+                            How the recent settlement on paying a commission could
+                            change the wat Americans buy and sell homes
+                        </p>
+                        <p class="section4__para1">
+                            Family Dollar stores are closing. These city officials
+                            are happy about it
+                        </p>
+                        <p class="section4__para1"> Searches for VPNs spike in Texas after Pornhub pulls
+                            out of the state
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="section4__middle">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">cnn travel</p>
+                </div>
+                <div>
+                    <img class="section4__img" src="img/picture img.jpg" alt="img">
+                    <h3>
+                        The stunning 30-hour train ride that sells out in minutes
+                    </h3>
+                </div>
+                <div class="section4__para">
+                    <p class="section4__para1">
+                        How an airplane toilet works at 40,000 feet: the extra-ordinary science
+                        behind everyday flying
+                    </p>
+                    <p class="section4__para1">
+                        After risky spine surgery the surgeon told her not to plan any travel. Here's
+                        what happened when she didn't listen
+
+                    </p>
+                    <p class="section4__para1">
+                        'I want to get offthe plain'. The passenger refusing to fly on
+                        Boeing's 737 Max
+                    </p>
+                    <p class="section4__para1"> As gang violence spirals, some of the world's biggest
+                        cruise ships are still visiting Haiti
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="section4__right">
+                <div class="section4__right1">
+                    <img class="section4__img1" src="img/advertchoco img.jpg" alt="img">
+                    <img class="section4__img1" src="img/ad img1.jpg" alt="img">
+                </div>
+                <div class="advert-container">
+                    <p class="advert1">Adertisement</p>
+
+                    <svg class="advert__icon">
+                        <use xlink:href="/sprite.svg#icon-message">
+                        </use>
+                    </svg>
+                    <p class="advert">
+                        AD Feedback
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="section4__container">
+            <div class="section4__left">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">sport</p>
+                </div>
+                <div>
+                    <div>
+                        <img class="section4__img" src="img/man img.jpg" alt="img">
+                        <h3>
+                            Connor McGregor has just one title victory in the last eight years.
+                            Then he became a figurehead for the far-right in Ireland
+                        </h3>
+                    </div>
+                    <div class="section4__para">
+                        <p class="section4__para1">
+                            Former football coach Nick Saban laments the current landscape of college sport
+                        </p>
+                        <p class="section4__para1">
+                            Saudi Arabia's Al-Hilal sets record for most consecutive wins in men's soccer
+                        </p>
+                        <p class="section4__para1">
+                            Neeraj Chopra has gained unlikely stardom in India. If he wins another Olympic gold,
+                            he will be 'treated like God'
+                        </p>
+                        <p class="section4__para1"> Explosive knockouts, unique fighting style and a love for
+                            dancing:
+                            meet the UFC's newest debutant, Micheal 'Venom' page
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section4__middle">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">style</p>
+                </div>
+                <div>
+                    <img class="section4__img" src="img/woman img.jpg" alt="img">
+                    <h3>
+                        Remember when Catherine Hepburn wore pants and scandalized America?
+                    </h3>
+                </div>
+                <div class="section4__para">
+                    <p class="section4__para1">
+                        'They are quite like us': Scientist reveals groundbreaking finding on Stone Age
+                        piercings and who wore them
+                    </p>
+                    <p class="section4__para1">
+                        The rarest US stamp is going up for auction. Its expected to sell for millions
+                    </p>
+                    <p class="section4__para1">
+                        How 'Anatomy of a fall' star Sandra Huller queitly won red carpet season
+                    </p>
+                    <p class="section4__para1"> I'm 70 years old why shouldn't my cloth convey my sexuality,
+                        and sense of style?
+                    </p>
+                    <p class="section4__para1"> Back drops from viral Willy Wonka-inspired experience go
+                        on sale
+                    </p>
+                </div>
+            </div>
+
+            <div class="section4__right">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">opinion</p>
+                </div>
+                <div>
+                    <img class="section4__img" src="img/rig img.jpg" alt="img">
+                    <h3>
+                        Precious samples from Mars have been collected. Now it's upto congress to
+                        get them back
+                    </h3>
+                </div>
+                <div class="section4__para">
+                    <p class="section4__para1">
+                        What the Kate Middleton photo really shows
+                    </p>
+                    <p class="section4__para1">
+                        Kristen Stewart thriller is also a reminder of what queer kids are up against
+                    </p>
+                    <p class="section4__para1">
+                        I'm a climate scientist. If you knew what i know, you'd be terrified too
+                    </p>
+                    <p class="section4__para1"> American isn't cool anymore. Just ask the French
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="section4__container">
+            <div class="section4__left">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">us politics</p>
+                </div>
+                <div>
+                    <div>
+                        <img class="section4__img" src="img/donald img.jpg" alt="img">
+                        <h3>
+                            Trump warns of 'bloodbath' for auto industry and country if he loses the election
+                        </h3>
+                    </div>
+                    <div class="section4__para">
+                        <p class="section4__para1">
+                            Ruth Bader Ginsburg's family dissents after award in her name is given to Elon Musk and
+                            Rupert Murdoch
+                        </p>
+                        <p class="section4__para1">
+                            Peter Navarro ask Supreme Court to let him avoid reporting to prison
+                            next week
+                        </p>
+                        <p class="section4__para1">
+                            See Trump's busy legal and election calendar in 1 chart
+                        </p>
+                        <p class="section4__para1"> Harris says it's absurd and unfair that marijuana is treated
+                            more
+                            seriously than fentanyl under federal law
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section4__middle">
+                <div>
+                    <div class="card-border">
+                        <div class="card-border__inner"></div>
+                    </div>
+                    <p class="section4__para">science and health</p>
+                </div>
+                <div>
+                    <img class="section4__img" src="img/rocket img.jpg" alt="img">
+                    <h3>
+                        SpaceX's Starship reaches new heights monemental test flight but lost on reentry
+                    </h3>
+                </div>
+                <div class="section4__para">
+                    <p class="section4__para1">
+                        Toxic plastic chemicals number in the thousands are unregulated, reports find
+                    </p>
+                    <p class="section4__para1">
+                        Ancient lord's tomb found filled with gold and multiple sacrificial bodies
+                    </p>
+                    <p class="section4__para1">
+                        Some perplexing animal mysteries stumped scientists during the 2017 eclipse. Here is why
+                    </p>
+                    <p class="section4__para1"> This '6 to 1' trick might make your grocery shopping easier
+                    </p>
+                </div>
+            </div>
+
+            <div class="section4__right">
+                <div>
+                    <p class="section4__para">tech</p>
+                </div>
+                <div>
+                    <img class="section4__img" src="img/reddit img.jpg" alt="img">
+                    <h3>
+                        Reddit discloses FTC probe into it's AI content licensing practises ahead
+                        of IPO
+                    </h3>
+                </div>
+                <div class="section4__para">
+                    <p class="section4__para1">
+                        Self-proclaimed bitcoin inventor is not 'Satoshi Nakamoto', UK judge rules
+                    </p>
+                    <p class="section4__para1">
+                        A wrinkle in lawmakers' plan for TikTok: Finding a willing buyer
+                    </p>
+                    <p class="section4__para1">
+                        FCC cracks down on cable 'junk fees'
+                    </p>
+                    <p class="section4__para1"> Europe investigates Big Tech's use of generative AI
+                    </p>
+                    <p class="section4__para1"> Addicted to TikTok? Here's what the house vote to
+                        effectively ban it could mean for you
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section class="section5">
+        <div>
+            <h2 class="section5__header">
+                Photos you should see
+            </h2>
+        </div>
+
+        <div class="section5__cont">
+            <div class="section5__left">
+
+                <div class="section5-grid">
+                    <div>
+                        <img class="section5-img" src="img/snake img.jpg" alt="img">
+                        <p class="section5-para">Photographer reveals the wild side of desert life</p>
+                    </div>
+
+                    <div>
+                        <img class="section5-img" src="img/clock img.jpg" alt="img">
+                        <p class="section5-para">Luxury watchmaker is creating a 450 meter-tall
+                            residential clock
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="section5-img" src="img/house img.jpg" alt="img">
+                        <p class="section5-para"> This house is built on some of the most expensive prperty.
+                            in Africa.Take a look inside
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="section5-img" src="img/tree img.jpg" alt="img">
+                        <p class="section5-para"> The world's longest cantilever building just opened
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="section5-img" src="img/michael-jordan-house.jpg" alt="img">
+                        <p class="section5-para"> Inside Micheal Jordan's slice of paradise
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="section5-img" src="img/nature img.jpg" alt="img">
+                        <p class="section5-para"> Award-winning close-up photos show the hidden
+                            wonders of nature
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section5__right">
+                <img class="section5-img1" src="img/burger img.png" alt="img">
+                <div class="advert-container">
+                    <p class="advert1">Adertisement</p>
+
+                    <svg class="advert__icon">
+                        <use xlink:href="/sprite.svg#icon-message">
+                        </use>
+                    </svg>
+                    <p class="advert">
+                        AD Feedback
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h2 class="footer__header">In Case You Missed It</h2>
+
+        </div>
+        <div class="footer__cont">
+            <div class="footer__left">
+                <div>
+                    <img class="footer__img" src="img/water img.jpg" alt="img">
+                    <p class="footer__caption">
+                        Ryan Stalker/British Wildlife Photography Awards
+                    </p>
+                </div>
+                <h3 class="footer__header">
+                    Stunning photos show suprising wildlife in the British Isles
+                </h3>
+
+            </div>
+            <div class="footer__right">
+                <p class="footer__para">
+                    How a new NWSL team wants to 'change the face of American soccer'
+                </p>
+                <p class="footer__para">
+                    Deadly illness outbreak linked to mural mushrooms may have stemmed from
+                    preparation, CDC says
+                </p>
+                <p class="footer__para">
+                    New map shows just how extreme last month was for the planet
+                </p>
+                <p class="footer__para">
+                    Aid is being shipped to Gaza by sea. But a new maritime corridor is unlikely
+                    to stop the looming famine
+                </p>
+
+                <p class="footer__para">
+                    What to know about puberty blockers
+                </p>
+
+                <p class="footer__para">
+                    Why do i wake up at 3.am every night?
+                </p>
+                <p class="footer__para">
+                    Deep brain stimulation didn't work for a young OCD patient until
+                    new brain maps changed everything
+                </p>
+
+                <p class="footer__para">
+                    Princes William and Harry praise Diana's legacy at London event
+                </p>
+                <p class="footer__para">
+                    Blood pressure is best lowered by 2 exercises, study finds
+                </p>
+            </div>
+        </div>
+        <div class="search__footer-cont">
+            <input class="search__footer-input" type="text" placeholder="search CNN...">
+            <button class="search__footer-button">
+                <svg class="search__footer-icon">
+                    <use xlink:href="/sprite.svg#icon-magnifying-glass">
+                    </use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="footer__flex-cont">
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    World
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Africa
+                    </li>
+                    <li class="footer__list">
+                        Americas
+                    </li>
+                    <li class="footer__list">
+                        Asia
+                    </li>
+                    <li class="footer__list">
+                        Australia
+                    </li>
+                    <li class="footer__list">
+                        China
+                    </li>
+                    <li class="footer__list">
+                        Europe
+                    </li>
+                    <li class="footer__list">
+                        India
+                    </li>
+                    <li class="footer__list">
+                        Middle East
+                    </li>
+                    <li class="footer__list">
+                        United Kingdom
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    US Politics
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        SCOTUS
+                    </li>
+                    <li class="footer__list">
+                        Congress
+                    </li>
+                    <li class="footer__list">
+                        Facts First
+                    </li>
+                    <li class="footer__list">
+                        2024 Elections
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Business
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Markets
+                    </li>
+                    <li class="footer__list">
+                        Tech
+                    </li>
+                    <li class="footer__list">
+                        Media
+                    </li>
+                    <li class="footer__list">
+                        Calculators
+                    </li>
+                    <li class="footer__list">
+                        Videos
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Health
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Life,But Better
+                    </li>
+                    <li class="footer__list">
+                        Fitness
+                    </li>
+                    <li class="footer__list">
+                        Food
+                    </li>
+                    <li class="footer__list">
+                        Sleep
+                    </li>
+                    <li class="footer__list">
+                        Mindfulness
+                    </li>
+                    <li class="footer__list">
+                        Relationships
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Entertainment
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Movies
+                    </li>
+                    <li class="footer__list">
+                        Television
+                    </li>
+                    <li class="footer__list">
+                        Celebrity
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Tech
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Innovate
+                    </li>
+                    <li class="footer__list">
+                        Gadget
+                    </li>
+                    <li class="footer__list">
+                        Foreseeable Future
+                    </li>
+                    <li class="footer__list">
+                        Mission: Ahead
+                    </li>
+                    <li class="footer__list">
+                        Upstarts
+                    </li>
+                    <li class="footer__list">
+                        Work Transformed
+                    </li>
+                    <li class="footer__list">
+                        Innovative City
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Style
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Arts
+                    </li>
+                    <li class="footer__list">
+                        Design
+                    </li>
+                    <li class="footer__list">
+                        Fahion
+                    </li>
+                    <li class="footer__list">
+                        Architecture
+                    </li>
+                    <li class="footer__list">
+                        Luxury
+                    </li>
+                    <li class="footer__list">
+                        Beauty
+                    </li>
+                    <li class="footer__list">
+                        Video
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Travel
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Destinations
+                    </li>
+                    <li class="footer__list">
+                        Food & Drink
+                    </li>
+                    <li class="footer__list">
+                        Stay
+                    </li>
+                    <li class="footer__list">
+                        News
+                    </li>
+                    <li class="footer__list">
+                        Videos
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Sports
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Football
+                    </li>
+                    <li class="footer__list">
+                        Tennis
+                    </li>
+                    <li class="footer__list">
+                        Golf
+                    </li>
+                    <li class="footer__list">
+                        Motorsport
+                    </li>
+                    <li class="footer__list">
+                        US Sports
+                    </li>
+                    <li class="footer__list">
+                        Olympics
+                    </li>
+                    <li class="footer__list">
+                        Climbing
+                    </li>
+                    <li class="footer__list">
+                        Esports
+                    </li>
+                    <li class="footer__list">
+                        Hockey
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Watch
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Live TV
+                    </li>
+                    <li class="footer__list">
+                        Digital Studios
+                    </li>
+                    <li class="footer__list">
+                        CNN Films
+                    </li>
+                    <li class="footer__list">
+                        HLN
+                    </li>
+                    <li class="footer__list">
+                        TV Schedule
+                    </li>
+                    <li class="footer__list">
+                        TV Shows A-Z
+                    </li>
+                    <li class="footer__list">
+                        CNNVR
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Features
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        As Equals
+                    </li>
+                    <li class="footer__list">
+                        Call to Earth
+                    </li>
+                    <li class="footer__list">
+                        Freedom Project
+                    </li>
+                    <li class="footer__list">
+                        Impact Your World
+                    </li>
+                    <li class="footer__list">
+                        Inside Africa
+                    </li>
+                    <li class="footer__list">
+                        2 Degrees
+                    </li>
+                    <li class="footer__list">
+                        CNN Heroes
+                    </li>
+                    <li class="footer__list">
+                        All Features
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    Weather
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Climate
+                    </li>
+                    <li class="footer__list">
+                        Wildfire Tracker
+                    </li>
+                    <li class="footer__list">
+                        Video
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-cont">
+                <h3 class="footer__flex-header">
+                    More
+                </h3>
+                <ul>
+                    <li class="footer__list">
+                        Photos
+                    </li>
+                    <li class="footer__list">
+                        Longform
+                    </li>
+                    <li class="footer__list">
+                        Investigations
+                    </li>
+                    <li class="footer__list">
+                        CNN Profiles
+                    </li>
+                    <li class="footer__list">
+                        CNN Leadership
+                    </li>
+                    <li class="footer__list">
+                        CNN Newsletters
+                    </li>
+                    <li class="footer__list">
+                        Work for CNN
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer__flex-container">
+            <div class="footer__flex-left">
+
+                <img class="footer__cnn-icon" src="/img/download (1).png" alt="img">
+
+                <p><a class="footer-text1" href="">US</a></p>
+            </div>
+
+
+            <div class="footer__flex-right">
+                <p><a class="footer-text" href="">Watch</a></p>
+                <p><a class="footer-text" href="">Listen</a></p>
+                <p><a class="footer-text" href="">Live TV</a></p>
+                <div class="footer-text2">&#124;</div>
+                <h5 class="footer-text">FOLLOW CNN</h5>
+                <svg class="footer__icon">
+                    <use xlink:href="/sprite.svg#icon-facebook2">
+                    </use>
+                </svg>
+
+                <img class="footer-img" src="/img/tiktok.png" alt="img">
+
+                <svg class="footer__icon">
+                    <use xlink:href="/sprite.svg#icon-instagram">
+                    </use>
+                </svg>
+
+                <img class="footer-img" src="/img/xicontwitter.png" alt="img">
+
+                <svg class="footer__icon">
+                    <use xlink:href="/sprite.svg#icon-linkedin">
+                    </use>
+                </svg>
+
+                <button class="footer-button"><a class="footer-link">Sign In</a></button>
+
+            </div>
+        </div>
+
+        <div>
+            <div class="footer__paragraph-cont">
+                <p class="footer__paragraph">
+                    Terms of Use
+                </p>
+                <p class="footer__paragraph">
+                    Privacy Policy
+                </p>
+                <p class="footer__paragraph">
+                    Cookie Settings
+                </p>
+                <p class="footer__paragraph">
+                    AD Choices
+                </p>
+                <p class="footer__paragraph">
+                    Accessibility & CC
+                </p>
+                <p class="footer__paragraph">
+                    About
+                </p>
+                <p class="footer__paragraph">
+                    Newsletters
+                </p>
+                <p class="footer__paragraph">
+                    Transcripts
+                </p>
+            </div>
+        </div>
+
+        <div class="footer__paragraph-cont1">
+            <span class="footer-span">
+                <p class="footer__paragraph1">
+                    &copy;2024 Cable News Network.
+                </p>
+                <p class="footer__paragraph1">
+                    A Warner Bros.
+                </p>
+                <p class="footer__paragraph1">
+                    Discovery Company.
+                </p>
+                <p class="footer__paragraph1">
+                    All Right Reserved.
+                </p>
+            </span>
+        </div>
+
+        <div class="footer-div">
+            <span class="footer-span">
+                <p class="footer__paragraph1">
+                    CNN Sans &#8482; & &copy; 2016 Cable News Network.
+                </p>
+            </span>
+        </div>
+
+
+
+    </footer>
+
+
+    </div>
+</body>
+
+</html>
+
+<!--
+max-width 500px is when the width is 500px and below
+
+min-width is when the width is 500px and above 
+-->
+*/
 
 
 
